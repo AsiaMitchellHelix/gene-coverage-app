@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  border-radius: 8px;
+  padding: 14px 18px;
+  border: 1px solid;
+  margin-top: 20px;
+}
+
+.pending, .running {
+  background: #ebf8ff;
+  border-color: #90cdf4;
+  color: #2c5282;
+}
+
+.done {
+  background: #f0fff4;
+  border-color: #9ae6b4;
+  color: #276749;
+}
+
+.failed {
+  background: #fff5f5;
+  border-color: #feb2b2;
+  color: #742a2a;
+}
+
+.icon {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sub {
+  font-size: 12px;
+  margin-top: 3px;
+  opacity: 0.8;
+}
+
+.error {
+  font-size: 12px;
+  margin-top: 4px;
+  color: #c53030;
+}

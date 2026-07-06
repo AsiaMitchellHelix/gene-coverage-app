@@ -1,0 +1,65 @@
+.page {
+  min-height: 100vh;
+  background: #f7f9fc;
+}
+
+.header {
+  background: #2c5282;
+  color: #fff;
+  padding: 32px 24px 28px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.85;
+  max-width: 640px;
+}
+
+.subtitle code {
+  background: rgba(255,255,255,0.15);
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 12px;
+}
+
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 28px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  padding: 24px 28px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.apiError {
+  margin-top: 12px;
+  color: #c53030;
+  font-size: 13px;
+}
+
+.sectionHeading {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.jobNote {
+  font-size: 13px;
+  color: #4a5568;
+  line-height: 1.5;
+}

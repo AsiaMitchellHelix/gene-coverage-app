@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+dist/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Terraform
+infrastructure/.terraform/
+infrastructure/*.tfstate
+infrastructure/*.tfstate.backup
+infrastructure/.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
